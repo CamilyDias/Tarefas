@@ -6,20 +6,30 @@ line-height: 1.5em;
 text-align: center;
 outline: auto;
 background-color: white;
+margin-left:auto;
+margin-right:auto;
 }
 nav {
+    max-width:800px;
+    min-width:400px
     height: 20px;
     outline: auto;
     line-height: 1.5em;
     background-color: white;
+    align-itens: center;
+    margin-left: auto;
+   margin-right: auto;
 }
 main {
+    min-width:300px;
+    max-width:800px;
     height: 400px;
     outline: auto;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 3px;
     background-color: white;
+    align-items: center;
 }
 article {
     height:350px ;
@@ -42,6 +52,8 @@ footer {
     outline: auto;
     margin-top: 8px;
     background-color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 body {
     background-color: gray;
